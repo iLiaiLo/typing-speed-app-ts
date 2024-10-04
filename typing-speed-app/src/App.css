@@ -1,0 +1,113 @@
+.word{
+    font-size:25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 45px;
+}
+.input{
+    padding: 15px;
+    outline: none;
+    width:min(80%,400px);
+    border:2px solid rgb(33, 32, 32);
+    border-radius:20px;
+    font-size:19px;
+}
+.input:focus{
+    box-shadow:0 0 5px grey;
+}
+.frame{
+    position: absolute;
+    left:70px;
+    width:min(100px,50vw);
+    height:400px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+.Axis-text{
+    position: absolute;
+    text-align: center;
+    top:180px;
+    left:-200px;
+    transform: rotate(270deg);
+    letter-spacing: 1px;
+    font-size:20px;
+    color:#5c6e81;
+    width: 300px;
+    text-shadow: 0 0 1px #1e1e1e;
+}
+.scale{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    left:-35px;
+    height: 400px;
+    width:30px;
+}
+.column{
+    position: relative;
+    background-image: linear-gradient(to top,red,tomato,yellow,lightgreen,green);
+    width:40px;
+    height:400px;
+    margin-left:20px;
+}
+.fill{
+    position: absolute;
+    width:40px;
+    background-color:rgb(255, 255, 255);
+    height: 100%;
+    transition:1s;
+    top:0;
+}  
+.Result-info{
+    position:absolute;
+    top:60%;
+}
+.Result-info>p{
+    font-size:20px;
+}
+.Result-info>p>span{
+    font-weight:bold;
+}
+.Result-info>button{
+    padding: 10px;
+    cursor: pointer;
+    border:none;
+    background-color: #586a7c;
+    color:white;
+    font-size:20px;
+    border-radius: 5px;
+}
+.Result-info>button:hover{
+    background-color: #3f4f5f;  
+}
+
+.Timer{
+    margin:20px 0;
+}
+.Timer>span{
+    font-size:20px;
+    font-weight:700;
+}
+
+.Tools{
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap:10px;
+}
+.Tools>p{
+    font-size:20px;
+}
+.Tools>button{
+    padding:10px;
+    border-radius: 5px;
+    border:none;
+    background-color: #778899;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+}
+.Tools>button:hover{
+    background-color: #3b4a59;
+}

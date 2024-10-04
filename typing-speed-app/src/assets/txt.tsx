@@ -1,0 +1,3 @@
+const string:string=`In a quiet village nestled between rolling hills, there lived a young girl named Emma. Every morning, she would wander through the meadows, collecting wildflowers and listening to the songs of the birds. One day, she discovered a hidden path that led to a secret garden, filled with the most beautiful flowers she had ever seen. Emma spent hours exploring the garden, feeling a sense of wonder and joy. From that day on, the secret garden became her favorite place, a sanctuary where she could escape and dream.`
+
+export default string
